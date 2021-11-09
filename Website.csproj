@@ -105,6 +105,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="back in black.mp3" />
+    <Content Include="industry.mp3" />
+    <Content Include="memories.mp3" />
+    <Content Include="top of the world.mp3" />
+    <Content Include="weve only just begun.mp3" />
+    <Content Include="close to you.mp3" />
+    <Content Include="war pigs.mp3" />
     <Content Include="Songs.aspx" />
     <Content Include="Bands.aspx" />
     <Content Include="Artists.aspx" />
