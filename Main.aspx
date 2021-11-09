@@ -7,8 +7,7 @@
     body {background-color: black;} 
 </style>
         <h1 style="color: #02c4c4"> Campbell's Music 
-            <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
-      
+                  
             &nbsp;<a style="color: #02c4c4" class="btn btn-default" href="Contact.aspx">Contact Us &raquo;</a></h1>
         <p style="color: #000000"> Here to broaden your musical horizons. </p>
     </div>

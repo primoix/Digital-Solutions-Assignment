@@ -8,7 +8,7 @@ using System.Data.SqlClient;
 
 namespace Website_to_Database
 {
-    public partial class About : Page
+    public partial class Songs : Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -16,7 +16,7 @@ namespace Website_to_Database
 
             con.Open();
 
-            str = "select Comments from [Table] Where Id = 2";
+            str = "select Comments from [vinyl] Where Id = 2";
 
             com = new SqlCommand(str, con);
 

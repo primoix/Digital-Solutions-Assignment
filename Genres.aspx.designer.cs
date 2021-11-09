@@ -11,7 +11,7 @@ namespace Website
 {
 
 
-    public partial class About
+    public partial class Genres
     {
     }
 }
