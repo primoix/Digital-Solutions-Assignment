@@ -62,26 +62,32 @@ namespace Website
         protected void WevePlay_Click(object sender, EventArgs e)
         {
             SoundPlayer soundplayer = new SoundPlayer(@"C:\Users\Zane\Source\Repos\primoix\Digital-Solutions-Assignment\carpenters -We've Only Just Begun.wav");
+            soundplayer.Play();
         }
         protected void ClosePlay_Click(object sender, EventArgs e)
         {
             SoundPlayer soundplayer = new SoundPlayer(@"C:\Users\Zane\Source\Repos\primoix\Digital-Solutions-Assignment\Carpenters - Close to you.wav");
+            soundplayer.Play();
         }
         protected void BackPlay_Click(object sender, EventArgs e)
         {
             SoundPlayer soundplayer = new SoundPlayer(@"C:\Users\Zane\Source\Repos\primoix\Digital-Solutions-Assignment\AC_DC - Back In Black (Official Video).wav");
+            soundplayer.Play();
         }
         protected void TopPlay_Click(object sender, EventArgs e)
         {
             SoundPlayer soundplayer = new SoundPlayer(@"C:\Users\Zane\Source\Repos\primoix\Digital-Solutions-Assignment\Top Of The World (Single Mix).wav");
+            soundplayer.Play();
         }
         protected void MemPlay_Click(object sender, EventArgs e)
         {
             SoundPlayer soundplayer = new SoundPlayer(@"C:\Users\Zane\Source\Repos\primoix\Digital-Solutions-Assignment\Maroon 5 - Memories (Official Video).wav");
+            soundplayer.Play();
         }
         protected void IndPlay_Click(object sender, EventArgs e)
         {
             SoundPlayer soundplayer = new SoundPlayer(@"C:\Users\Zane\Source\Repos\primoix\Digital-Solutions-Assignment\Lil Nas X, Jack Harlow - INDUSTRY BABY (Official Video).wav");
+            soundplayer.Play();
         }
     }
 }
