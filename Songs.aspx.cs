@@ -5,8 +5,9 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Data.SqlClient;
+using System.Media;
 
-namespace Website_to_Database
+namespace Website
 {
     public partial class Songs : Page
     {
@@ -16,7 +17,7 @@ namespace Website_to_Database
 
             con.Open();
 
-            str = "select Comments from [vinyl] Where Id = 2";
+            str = "select Comments from [vinyl] Where Id = 8";
 
             com = new SqlCommand(str, con);
 
@@ -34,7 +35,7 @@ namespace Website_to_Database
 
             con.Close();
         }
-        public string conString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=D:\\zturn34\\My Documents\\2021 - 2022\\DIS\\Unit 2\\Term 3\\Visual Studio\\SampleDatabaseWalkthrough\\SampleDatabaseWalkthrough\\SampleDatabase.mdf;Integrated Security = True; Connect Timeout = 30";
+        public string conString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\Zane\\source\\repos\\SampleDatabaseWalkthrough\\SampleDatabaseWalkthrough\\SampleDatabase.mdf;Integrated Security = True; Connect Timeout = 30";
         string str;
         SqlCommand com;
         
@@ -45,13 +46,42 @@ namespace Website_to_Database
             if (con.State == System.Data.ConnectionState.Open)
             {
                 string UpdateComments = SongsBox.Text.ToString();
-                string q = "UPDATE [vinyl] SET Comments= '" + UpdateComments + "' Where Id = 1,2,3,4,5,6,7 ";
+                string q = "UPDATE [vinyl] SET Comments= '" + UpdateComments + "' Where Id = 8 ";
 
                 SqlCommand cmd = new SqlCommand(q, con);
 
                 cmd.ExecuteNonQuery();
                 ScriptManager.RegisterStartupScript(this, this.GetType(), "alert", "alert('Update Successful');", true);
             }
+        }
+        protected void WarPlay_Click(object sender, EventArgs e)
+        {
+            SoundPlayer soundplayer = new SoundPlayer(@"C:\Users\Zane\Source\Repos\primoix\Digital-Solutions-Assignment\Black Sabbath _ War Pigs.wav");
+            soundplayer.Play();
+        }
+        protected void WevePlay_Click(object sender, EventArgs e)
+        {
+            SoundPlayer soundplayer = new SoundPlayer(@"C:\Users\Zane\Source\Repos\primoix\Digital-Solutions-Assignment\carpenters -We've Only Just Begun.wav");
+        }
+        protected void ClosePlay_Click(object sender, EventArgs e)
+        {
+            SoundPlayer soundplayer = new SoundPlayer(@"C:\Users\Zane\Source\Repos\primoix\Digital-Solutions-Assignment\Carpenters - Close to you.wav");
+        }
+        protected void BackPlay_Click(object sender, EventArgs e)
+        {
+            SoundPlayer soundplayer = new SoundPlayer(@"C:\Users\Zane\Source\Repos\primoix\Digital-Solutions-Assignment\AC_DC - Back In Black (Official Video).wav");
+        }
+        protected void TopPlay_Click(object sender, EventArgs e)
+        {
+            SoundPlayer soundplayer = new SoundPlayer(@"C:\Users\Zane\Source\Repos\primoix\Digital-Solutions-Assignment\Top Of The World (Single Mix).wav");
+        }
+        protected void MemPlay_Click(object sender, EventArgs e)
+        {
+            SoundPlayer soundplayer = new SoundPlayer(@"C:\Users\Zane\Source\Repos\primoix\Digital-Solutions-Assignment\Maroon 5 - Memories (Official Video).wav");
+        }
+        protected void IndPlay_Click(object sender, EventArgs e)
+        {
+            SoundPlayer soundplayer = new SoundPlayer(@"C:\Users\Zane\Source\Repos\primoix\Digital-Solutions-Assignment\Lil Nas X, Jack Harlow - INDUSTRY BABY (Official Video).wav");
         }
     }
 }

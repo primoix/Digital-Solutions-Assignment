@@ -15,130 +15,67 @@ namespace Website
     {
 
         /// <summary>
-        /// warPlay control.
+        /// WarPlay control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button warPlay;
+        protected global::System.Web.UI.WebControls.Button WarPlay;
 
         /// <summary>
-        /// warPause control.
+        /// ClosePlay control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button warPause;
+        protected global::System.Web.UI.WebControls.Button ClosePlay;
 
         /// <summary>
-        /// closePlay control.
+        /// WevePlay control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button closePlay;
+        protected global::System.Web.UI.WebControls.Button WevePlay;
 
         /// <summary>
-        /// closePause control.
+        /// MemPlay control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button closePause;
+        protected global::System.Web.UI.WebControls.Button MemPlay;
 
         /// <summary>
-        /// wevePlay control.
+        /// TopPlay control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button wevePlay;
+        protected global::System.Web.UI.WebControls.Button TopPlay;
 
         /// <summary>
-        /// wevePause control.
+        /// IndPlay control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button wevePause;
+        protected global::System.Web.UI.WebControls.Button IndPlay;
 
         /// <summary>
-        /// memPlay control.
+        /// BackPlay control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button memPlay;
-
-        /// <summary>
-        /// memPause control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button memPause;
-
-        /// <summary>
-        /// topPlay control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button topPlay;
-
-        /// <summary>
-        /// topPause control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button topPause;
-
-        /// <summary>
-        /// indPlay control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button indPlay;
-
-        /// <summary>
-        /// indPause control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button indPause;
-
-        /// <summary>
-        /// backPlay control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button backPlay;
-
-        /// <summary>
-        /// backPause control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button backPause;
+        protected global::System.Web.UI.WebControls.Button BackPlay;
 
         /// <summary>
         /// SongsLabel control.

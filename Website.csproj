@@ -105,13 +105,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="back in black.mp3" />
-    <Content Include="industry.mp3" />
-    <Content Include="memories.mp3" />
-    <Content Include="top of the world.mp3" />
-    <Content Include="weve only just begun.mp3" />
-    <Content Include="close to you.mp3" />
-    <Content Include="war pigs.mp3" />
+    <Content Include="AC_DC - Back In Black %28Official Video%29.wav" />
+    <Content Include="Black Sabbath _ War Pigs.wav" />
+    <Content Include="Carpenters - Close to you.wav" />
+    <Content Include="carpenters -We%27ve Only Just Begun.wav" />
+    <Content Include="Lil Nas X, Jack Harlow - INDUSTRY BABY %28Official Video%29.wav" />
+    <Content Include="Maroon 5 - Memories %28Official Video%29.wav" />
     <Content Include="Songs.aspx" />
     <Content Include="Bands.aspx" />
     <Content Include="Artists.aspx" />
@@ -167,6 +166,7 @@
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="Site.Master" />
+    <Content Include="Top Of The World %28Single Mix%29.wav" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
