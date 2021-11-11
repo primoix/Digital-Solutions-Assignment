@@ -24,6 +24,42 @@ namespace Website
         protected global::System.Web.UI.WebControls.Button WarPlay;
 
         /// <summary>
+        /// WarPause control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button WarPause;
+
+        /// <summary>
+        /// SongsBox1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox SongsBox1;
+
+        /// <summary>
+        /// SongsButton1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button SongsButton1;
+
+        /// <summary>
+        /// SongsLabel1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label SongsLabel1;
+
+        /// <summary>
         /// ClosePlay control.
         /// </summary>
         /// <remarks>
@@ -31,6 +67,42 @@ namespace Website
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button ClosePlay;
+
+        /// <summary>
+        /// ClosePause control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button ClosePause;
+
+        /// <summary>
+        /// SongsBox2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox SongsBox2;
+
+        /// <summary>
+        /// SongsButton2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button SongsButton2;
+
+        /// <summary>
+        /// SongsLabel2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label SongsLabel2;
 
         /// <summary>
         /// WevePlay control.
@@ -42,6 +114,42 @@ namespace Website
         protected global::System.Web.UI.WebControls.Button WevePlay;
 
         /// <summary>
+        /// WevePause control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button WevePause;
+
+        /// <summary>
+        /// SongsBox3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox SongsBox3;
+
+        /// <summary>
+        /// SongsButton3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button SongsButton3;
+
+        /// <summary>
+        /// SongsLabel3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label SongsLabel3;
+
+        /// <summary>
         /// MemPlay control.
         /// </summary>
         /// <remarks>
@@ -49,6 +157,42 @@ namespace Website
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button MemPlay;
+
+        /// <summary>
+        /// MemPause control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button MemPause;
+
+        /// <summary>
+        /// SongsBox4 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox SongsBox4;
+
+        /// <summary>
+        /// SongsButton4 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button SongsButton4;
+
+        /// <summary>
+        /// SongsLabel4 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label SongsLabel4;
 
         /// <summary>
         /// TopPlay control.
@@ -60,6 +204,42 @@ namespace Website
         protected global::System.Web.UI.WebControls.Button TopPlay;
 
         /// <summary>
+        /// TopPause control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button TopPause;
+
+        /// <summary>
+        /// SongsBox5 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox SongsBox5;
+
+        /// <summary>
+        /// SongsButton5 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button SongsButton5;
+
+        /// <summary>
+        /// SongsLabel5 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label SongsLabel5;
+
+        /// <summary>
         /// IndPlay control.
         /// </summary>
         /// <remarks>
@@ -67,6 +247,42 @@ namespace Website
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button IndPlay;
+
+        /// <summary>
+        /// IndPause control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button IndPause;
+
+        /// <summary>
+        /// SongsBox6 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox SongsBox6;
+
+        /// <summary>
+        /// SongsButton6 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button SongsButton6;
+
+        /// <summary>
+        /// SongsLabel6 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label SongsLabel6;
 
         /// <summary>
         /// BackPlay control.
@@ -78,30 +294,39 @@ namespace Website
         protected global::System.Web.UI.WebControls.Button BackPlay;
 
         /// <summary>
-        /// SongsLabel control.
+        /// BackPause control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label SongsLabel;
+        protected global::System.Web.UI.WebControls.Button BackPause;
 
         /// <summary>
-        /// SongsBox control.
+        /// SongsBox7 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox SongsBox;
+        protected global::System.Web.UI.WebControls.TextBox SongsBox7;
 
         /// <summary>
-        /// SongsButton control.
+        /// SongsButton7 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button SongsButton;
+        protected global::System.Web.UI.WebControls.Button SongsButton7;
+
+        /// <summary>
+        /// SongsLabel7 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label SongsLabel7;
     }
 }
